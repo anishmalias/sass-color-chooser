@@ -7046,6 +7046,7 @@ header {
   height: 150px;
   background: #ffbd00;
   margin-bottom: 30px;
+  border: 3px solid #997100;
   transition: background ease 0.2s;
   -webkit-transition: background ease 0.2s;
   -moz-transition: background ease 0.2s;

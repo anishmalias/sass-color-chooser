@@ -442,6 +442,7 @@ header{
 	height: 150px;
 	background: $secondary_color;
 	margin-bottom: 30px;
+	border: 3px solid darken($secondary_color, 20);
 
 	@include transitionBackground;
 }
