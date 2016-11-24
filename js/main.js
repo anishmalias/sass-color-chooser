@@ -97,7 +97,14 @@ $(function(){
 	var cssUrl = $(".patter-list li a.active").attr('data-href');
 	$("#css-handler").attr('href',cssUrl);
 	
-	
+
+
+	$(document).mouseup(function(e){
+		var container = $(".submenu");
+		if (!container.is(e.target)&& container.has(e.target).length === 0){
+			container.hide();
+		}
+	});
 
 
 		
