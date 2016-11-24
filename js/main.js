@@ -101,8 +101,11 @@ $(function(){
 
 	$(document).mouseup(function(e){
 		var container = $(".submenu");
-		if (!container.is(e.target)&& container.has(e.target).length === 0){
-			container.hide();
+		if(!$(".base-section").hasClass("open")){
+			if (!$(".nav-holder-control").is(e.target)&& !container.is(e.target)&& container.has(e.target).length === 0){
+				container.hide();
+				$(".nav-list > li").removeClass("dropdown-open");
+			}
 		}
 	});
 
