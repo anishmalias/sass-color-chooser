@@ -92,7 +92,9 @@ header{
 		padding: 21px 15px;
 		float: left;
 		border-right: $light_grey 1px solid;
-
+		.nav-holder-control{
+			display: block;
+		}
 		.line{
 			display: block;
 			margin-top: 5px;

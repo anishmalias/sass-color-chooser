@@ -6669,12 +6669,12 @@ button.close {
     transform: rotate(0deg); }
   to {
     transform: rotate(360deg); } }
-@-webkit-keyframes fadeIn {
+@-webkit-keyframes rotate {
   from {
     -webkit-transform: rotate(0deg); }
   to {
     -webkit-transform: rotate(360deg); } }
-@-moz-keyframes fadeIn {
+@-moz-keyframes rotate {
   from {
     -moz-transform: rotate(0deg); }
   to {
@@ -6776,6 +6776,8 @@ header {
     padding: 21px 15px;
     float: left;
     border-right: #e2e2e2 1px solid; }
+    header .nav-holder .nav-holder-control {
+      display: block; }
     header .nav-holder .line {
       display: block;
       margin-top: 5px;
