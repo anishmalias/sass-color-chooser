@@ -1,0 +1,60 @@
+
+/* shadow */
+
+@mixin defaultShadow{
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.4);
+	-ms-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* transition color*/
+
+@mixin transitionColor{
+	transition: color ease 0.2s;
+	-webkit-transition: color ease 0.2s;
+	-moz-transition: color ease 0.2s;
+	-ms-transition: color ease 0.2s;
+	-o-transition: color ease 0.2s;
+}
+
+/* transition background*/
+
+@mixin transitionBackground{
+	transition: background ease 0.2s;
+	-webkit-transition: background ease 0.2s;
+	-moz-transition: background ease 0.2s;
+	-ms-transition: background ease 0.2s;
+	-o-transition: background ease 0.2s;
+}
+
+/* transition transform */
+
+
+@mixin transitionTransform{
+	transition: transform ease 0.2s;
+	-webkit-transition: transform ease 0.2s;
+	-moz-transition: transform ease 0.2s;
+	-ms-transition: transform ease 0.2s;
+	-o-transition: transform ease 0.2s;
+}
+
+/* Border radius 50% */
+
+@mixin borderRadius50{
+	border-radius:50%; 
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	-o-border-radius:50%;
+}
+
+/* Border radius 50px */
+
+@mixin borderRadius50px{
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+}

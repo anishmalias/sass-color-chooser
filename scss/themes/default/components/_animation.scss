@@ -1,0 +1,28 @@
+/* Fade In */
+@keyframes fadeIn{
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-webkit-keyframes fadeIn{
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-moz-keyframes fadeIn{
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+/* Rotate */
+
+@keyframes rotate{
+	from { transform: rotate(0deg); }
+	to   { transform: rotate(360deg); }
+}
+@-webkit-keyframes fadeIn{
+	from { -webkit-transform: rotate(0deg); }
+	to   { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes fadeIn{
+	from { -moz-transform: rotate(0deg); }
+	to   { -moz-transform: rotate(360deg); }
+}
