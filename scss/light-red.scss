@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
-@import "themes/default/components/bootstrap";
-@import "themes/default/components/bootstrap-theme";
+@import "components/bootstrap";
+@import "components/bootstrap-theme";
+@import "components/colors";
 @import "themes/light-red/components/colors";
-@import "themes/default/components/animation";
-@import "themes/default/components/mixins";
-@import "themes/default/components/main";
-@import "themes/default/components/responsive";
+@import "components/animation";
+@import "components/mixins";
+@import "components/main";
+@import "components/responsive";
