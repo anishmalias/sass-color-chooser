@@ -6646,27 +6646,6 @@ button.close {
 /*# sourceMappingURL=bootstrap-theme.css.map */
 /* Define colors */
 /* Theme Color */
-header .nav-holder .line {
-  background: #fc631f; }
-
-.base-section .nav-section .nav-list > li > a i {
-  color: #fc631f; }
-.base-section.open .nav-list > li .submenu > li > a:hover {
-  color: #fc631f; }
-
-.blocks {
-  background: #fc631f;
-  border: 3px solid #b33902; }
-
-::-webkit-scrollbar {
-  background: rgba(252, 99, 31, 0.2); }
-
-::-webkit-scrollbar-thumb {
-  background: #fc631f; }
-
-.theme-switcher .switcher-button {
-  color: #fc631f; }
-
 /* Fade In */
 @keyframes fadeIn {
   0% {
@@ -7101,6 +7080,27 @@ header {
   -moz-transition: background ease 0.2s;
   -ms-transition: background ease 0.2s;
   -o-transition: background ease 0.2s; }
+
+header .nav-holder .line {
+  background: #fc631f; }
+
+.base-section .nav-section .nav-list > li > a i {
+  color: #fc631f; }
+.base-section.open .nav-list > li .submenu > li > a:hover {
+  color: #fc631f; }
+
+.blocks {
+  background: #fc631f;
+  border: 3px solid #b33902; }
+
+::-webkit-scrollbar {
+  background: rgba(252, 99, 31, 0.2); }
+
+::-webkit-scrollbar-thumb {
+  background: #fc631f; }
+
+.theme-switcher .switcher-button {
+  color: #fc631f; }
 
 @media screen and (max-width: 767px) {
   header .nav-holder {
