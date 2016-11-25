@@ -1,0 +1,50 @@
+
+header{
+	.nav-holder{
+		.line{
+			background:$theme_color_1; 
+		}
+	}
+}
+.base-section{
+	.nav-section{
+		.nav-list{
+			> li{
+				> a{
+					i{
+						color: $theme_color_1;					}
+				} 
+			} 
+		} 
+	}
+	&.open{
+		.nav-list{
+			> li{
+				.submenu{
+					> li{
+						> a{
+							&:hover{
+								color: $theme_color_1;			
+							}
+						}
+					} 
+				} 
+			}  
+		} 
+	} 
+} 
+.blocks{
+	background: $theme_color_1;
+	border: 3px solid darken($theme_color_1, 20);
+}
+::-webkit-scrollbar   {
+	background: rgba($theme_color_1, .2);
+}
+::-webkit-scrollbar-thumb  {
+	background: $theme_color_1;
+}
+.theme-switcher{
+	.switcher-button {
+		color: $theme_color_1;
+	}
+} 

@@ -1,0 +1,50 @@
+
+header{
+	.nav-holder{
+		.line{
+			background:$theme_color_8; 
+		}
+	}
+}
+.base-section{
+	.nav-section{
+		.nav-list{
+			> li{
+				> a{
+					i{
+						color: $theme_color_8;					}
+				} 
+			} 
+		} 
+	}
+	&.open{
+		.nav-list{
+			> li{
+				.submenu{
+					> li{
+						> a{
+							&:hover{
+								color: $theme_color_8;			
+							}
+						}
+					} 
+				} 
+			}  
+		} 
+	} 
+} 
+.blocks{
+	background: $theme_color_8;
+	border: 3px solid darken($theme_color_8, 20);
+}
+::-webkit-scrollbar   {
+	background: rgba($theme_color_8, .2);
+}
+::-webkit-scrollbar-thumb  {
+	background: $theme_color_8;
+}
+.theme-switcher{
+	.switcher-button {
+		color: $theme_color_8;
+	}
+} 

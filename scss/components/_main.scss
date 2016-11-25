@@ -454,8 +454,10 @@ header{
 	width: 8px;
 
 	@include borderRadius50px;
+	@include transitionBackground;
 }
 ::-webkit-scrollbar-thumb  {
 	background: $secondary_color;
 	@include borderRadius50px;
+	@include transitionBackground;
 } 
