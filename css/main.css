@@ -6781,7 +6781,7 @@ header {
       display: block;
       margin-top: 5px;
       height: 3px;
-      background: #ffbd00;
+      background: #fc631f;
       transition: background ease 0.2s;
       -webkit-transition: background ease 0.2s;
       -moz-transition: background ease 0.2s;
@@ -6837,7 +6837,7 @@ header {
           .base-section .nav-section .nav-list > li > a i {
             display: inline-block;
             margin-right: 5px;
-            color: #ffbd00;
+            color: #fc631f;
             transition: color ease 0.2s;
             -webkit-transition: color ease 0.2s;
             -moz-transition: color ease 0.2s;
@@ -6913,7 +6913,7 @@ header {
         padding-right: 0; }
         .base-section.open .nav-list > li .submenu > li > a:hover {
           background: none;
-          color: #ffbd00; }
+          color: #fc631f; }
 
 .breadcrumbs {
   margin-bottom: 10px; }
@@ -7023,7 +7023,7 @@ header {
     background: #ffffff;
     text-align: center;
     font-size: 15px;
-    color: #ffbd00;
+    color: #fc631f;
     border: #e2e2e2 1px solid;
     border-right: none;
     transition: color ease 0.2s;
@@ -7045,9 +7045,9 @@ header {
 
 .blocks {
   height: 150px;
-  background: #ffbd00;
+  background: #fc631f;
   margin-bottom: 30px;
-  border: 3px solid #997100;
+  border: 3px solid #b33902;
   transition: background ease 0.2s;
   -webkit-transition: background ease 0.2s;
   -moz-transition: background ease 0.2s;
@@ -7055,7 +7055,7 @@ header {
   -o-transition: background ease 0.2s; }
 
 ::-webkit-scrollbar {
-  background: rgba(255, 189, 0, 0.2);
+  background: rgba(252, 99, 31, 0.2);
   width: 8px;
   border-radius: 50px;
   -webkit-border-radius: 50px;
@@ -7069,7 +7069,7 @@ header {
   -o-transition: background ease 0.2s; }
 
 ::-webkit-scrollbar-thumb {
-  background: #ffbd00;
+  background: #fc631f;
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -7080,27 +7080,6 @@ header {
   -moz-transition: background ease 0.2s;
   -ms-transition: background ease 0.2s;
   -o-transition: background ease 0.2s; }
-
-header .nav-holder .line {
-  background: #fc631f; }
-
-.base-section .nav-section .nav-list > li > a i {
-  color: #fc631f; }
-.base-section.open .nav-list > li .submenu > li > a:hover {
-  color: #fc631f; }
-
-.blocks {
-  background: #fc631f;
-  border: 3px solid #b33902; }
-
-::-webkit-scrollbar {
-  background: rgba(252, 99, 31, 0.2); }
-
-::-webkit-scrollbar-thumb {
-  background: #fc631f; }
-
-.theme-switcher .switcher-button {
-  color: #fc631f; }
 
 @media screen and (max-width: 767px) {
   header .nav-holder {
